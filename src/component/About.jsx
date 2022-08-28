@@ -6,7 +6,7 @@ const About = () => {
     <div className='wrapper'>
       <h3>О нас</h3>
         <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo consequatur recusandae, 
+            Lorem lorwmos ipsum dolor sit amet consectetur adipisicing elit. Quo consequatur recusandae, 
             minima, fugit inventore quidem quos rem ab fugiat 
             fuga cumque maiores in repellat ullam eos ipsum, ipsam totam culpa.
             Modi enim voluptatum velit voluptate nemo ipsa iusto facere dolorem corporis beatae 

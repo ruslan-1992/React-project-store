@@ -83,7 +83,7 @@ html, body {
   justify-content: center;
   align-items: center;
   border-radius: 10px;
-  border: 1px solid black;
+  border: 2px solid black;
   text-decoration: none;
   color: black;
 }
@@ -104,8 +104,8 @@ html, body {
 }
 
 .content-item__img {
-  width: 100%;
-  height: 650px;
+  width: 100vw;
+  height: 750px;
   object-fit: cover;
   position: relative;
 }
@@ -161,9 +161,9 @@ html, body {
 }
 
 hr {
-  width: 70%;
-  height: 2px;
-  background-color: rgb(109, 93, 93);
+  width: 80%;
+  height: 10px;
+  background-color: rgba(109, 93, 93, 0.349);
   border: none;
   margin-top: 45px;
 }
@@ -184,15 +184,16 @@ hr {
 .button-category__all {
   margin-left: 3%;
   width: 110px;
-  height: 40px;
+  height: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 10px;
-  border: 1px solid black;
+  border: 2px solid black;
   text-decoration: none;
   color: black;
   text-transform: uppercase;
+  /* font-weight: 500; */
   cursor: pointer;
   background-color: white;
 }
@@ -254,10 +255,12 @@ hr {
   justify-content: center;
   align-items: center;
   border-radius: 10px;
-  border: 1px solid black;
+  border: 2px solid black;
   text-decoration: none;
   color: black;
   text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 500;
 }
 
 .button-buy:hover {
@@ -345,15 +348,16 @@ hr {
 .go-cart {
   margin-left: 3%;
   width: 100px;
-  height: 40px;
+  height: 36px;
   display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 6px;
-  border: 1px solid black;
+  border: 2px solid black;
   text-decoration: none;
   color: black;
   text-transform: uppercase;
+  font-weight: 500;
 }
 .go-cart:hover {
   background-color: black;
@@ -368,11 +372,13 @@ hr {
   justify-content: center;
   align-items: center;
   border-radius: 6px;
-  border: 1px solid black;
+  border: 2px solid black;
   text-decoration: none;
   color: black;
   text-transform: uppercase;
+  font-weight: 500;
   cursor: pointer;
+  font-size: 14px;
   background-color: white;
 }
 .add-cart:hover {
